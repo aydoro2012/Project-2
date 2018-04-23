@@ -1,0 +1,271 @@
+@media (max-width: 1100px) and (min-width: 768px) {
+
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-right {
+        margin-right: 10px;
+    }
+    .service-1,
+    .service-2,
+    .service-3,
+    .service-4 {
+        width: 347px;
+        padding-top: 40px;
+    }
+    .carousel-caption {
+        top: 4%;
+    }
+    .carousel-caption h1 {
+        font-size: 5vw;
+        padding-bottom: 30px;
+    }
+    .carousel-caption a {
+        padding: 10px 27px;
+        font-size: 20px;
+    }
+    .carousel-caption .button,
+    .navbar-toggle {
+        margin-top: 50px;
+    }
+    .team .block-for-content {
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+    .block-for-img {
+	    margin-bottom: 30px;
+	}
+    .team-1,
+    .team-2,
+    .team-3,
+    .team-4 {
+        width: 36%;
+    }
+    .team-1,
+    .team-2 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 426px) {
+
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        height: 260px;
+    }
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right {
+        width: 25px;
+        height: 25px;
+        padding-top: 4px;
+        font-size: 17px;
+        background: #fff;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+    .client-say {
+        height: 410px;
+    }
+    .carousel-caption .button {
+        margin-top: 30px;
+    }
+    .carousel-caption {
+        top: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 5.8vw;
+        padding-bottom: 18px;
+    }
+    .carousel-caption p {
+        font-size: 2.5vw;
+    }
+    .carousel-caption a {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+    .pro-proposition,
+    .basic-proposition,
+    .premium-proposition {
+        width: 80%;
+        padding-top: 10px;
+    }
+    .service-1,
+    .service-2,
+    .service-3,
+    .service-4 {
+        width: 345px;
+        padding-top: 40px;
+    }
+    .team .block-for-content {
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+    .team-1,
+    .team-2,
+    .team-3,
+    .team-4 {
+        width: 36%;
+    }
+    .team-1,
+    .team-2 {
+        padding-bottom: 20px;
+    }
+    .block-for-img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 30px;
+    }
+    p.team_name {
+        font-size: 21px;
+    }
+    .client-say .carousel-inner {
+        top: 4%;
+    }
+    form {
+        align-items: center;
+    }
+    footer {
+    	justify-content: center;
+        height: 500px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        height: 10px;
+        padding-top: 18px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        height: 190px;
+    }
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right {
+        width: 25px;
+        height: 25px;
+        padding-top: 4px;
+        font-size: 17px;
+        background: #fff;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+    .carousel-caption .button {
+        margin-top: 14px;
+    }
+    .carousel-caption {
+        top: 0%;
+    }
+    .carousel-caption h1 {
+        font-size: 5.8vw;
+        padding-bottom: 18px;
+    }
+    .carousel-caption p {
+        font-size: 3.5vw;
+    }
+    .carousel-caption a {
+        padding: 3px 11px;
+        font-size: 12px;
+    }
+    .pro-proposition,
+    .basic-proposition,
+    .premium-proposition {
+        width: 77%;
+        padding-top: 15px;
+    }
+    .service {
+        padding-top: 0px;
+    }
+    .service i {
+        font-size: 27px;
+        width: 45px;
+        height: 45px;
+        padding-top: 9px;
+    }
+    .service p {
+        padding-top: 3px;
+        padding-bottom: 2px;
+    }
+    h3,
+    .h3 {
+        font-size: 21px;
+    }
+    .client-say,
+    .client-say .carousel {
+        height: 300px;
+    }
+    .client-say h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .client-say p.content {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .service-1,
+    .service-2,
+    .service-3,
+    .service-4 {
+        width: 345px;
+        padding-top: 40px;
+    }
+    .team .block-for-content {
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+    .portfolio img {
+        width: 60%;
+    }
+    .portfolio .button {
+        background-color: #49cbcd;
+        color: #fff;
+        font-size: 21px;
+        padding: 12px 23px;
+        margin-top: 16px;
+        margin-bottom: 56px;
+    }
+    .portfolio h2,
+    .team h2 {
+        font-size: 38px;
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    .team-1,
+    .team-2,
+    .team-3,
+    .team-4 {
+        width: 36%;
+    }
+    .team-1,
+    .team-2 {
+        padding-bottom: 20px;
+    }
+    .block-for-img {
+        width: 105px;
+        height: 105px;
+        margin-bottom: 30px;
+    }
+    p.team_name {
+        font-size: 16px;
+    }
+    .client-say .carousel-inner {
+        top: 4%;
+    }
+    form {
+        align-items: center;
+    }
+    footer {
+        height: 400px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        height: 10px;
+        padding-top: 18px;
+    }
+}
+
+
+

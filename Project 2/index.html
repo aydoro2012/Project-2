@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>My New Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css\responsive.css">
+    <link rel="stylesheet" type="text/css" href="css\font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Author</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/img_for_carousel.png" alt="...">
+                    <div class="carousel-caption">
+                        <h1>This is a main heading</h1>
+                        <p>Lorem Ipsum is simply dummy text
+                            <br>of the printing</p>
+                        <div class="button"><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/img_for_carousel.png" alt="...">
+                    <div class="carousel-caption">
+                        <h1>This is a main heading</h1>
+                        <p>Lorem Ipsum is simply dummy text
+                            <br>of the printing</p>
+                        <div class="button"><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/img_for_carousel.png" alt="...">
+                    <div class="carousel-caption">
+                        <h1>This is a main heading</h1>
+                        <p>Lorem Ipsum is simply dummy text
+                            <br>of the printing</p>
+                        <div class="button"><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+        </div>
+    </header>
+    <main>
+        <div class="service">
+            <div class="service-1">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <h3>Custom Designs</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <div class="button"><a href="#">Read more</a></div>
+            </div>
+            <div class="service-2">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+                <h3>Custom Designs</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <div class="button"><a href="#">Read more</a></div>
+            </div>
+            <div class="service-3">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                <h3>Custom Designs</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <div class="button"><a href="#">Read more</a></div>
+            </div>
+            <div class="service-4">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h3>Custom Designs</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <div class="button"><a href="#">Read more</a></div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="block-for-content">
+                <img src="img/img1_portfolio.png">
+                <img src="img/img2_portfolio.png">
+                <img src="img/img3_portfolio.png">
+                <img src="img/img4_portfolio.png">
+                <img src="img/img5_portfolio.png">
+                <img src="img/img6_portfolio.png">
+            </div>
+            <div onclick="open_more()" id="button-for-hidden" class="button">See all works</div>
+
+            <div id="for-open" class="hidden-block">
+                <img src="img/img1_portfolio.png">
+                <img src="img/img2_portfolio.png">
+                <img src="img/img3_portfolio.png">
+                <img src="img/img4_portfolio.png">
+                <img src="img/img5_portfolio.png">
+                <img src="img/img6_portfolio.png">
+            </div>
+            <div onclick="close_block()" id="button-for-hidden-2" class="button button-for-hidden">Hide Block</div>
+           
+        </div>
+        <div class="team">
+            <h2>The Team</h2>
+            <div class="block-for-content">
+                <div class="team-1">
+                    <div class="block-for-img"></div>
+                    <p class="team_name">Adrian Thomas</p>
+                    <p class="team_position">CEO &amp; Founder</p>
+                    <p class="team_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                </div>
+                <div class="team-2">
+                    <div class="block-for-img"></div>
+                    <p class="team_name">Narate Ketram</p>
+                    <p class="team_position">Creative Director</p>
+                    <p class="team_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                </div>
+                <div class="team-3">
+                    <div class="block-for-img"></div>
+                    <p class="team_name">Tommy Comet</p>
+                    <p class="team_position">CEO &amp; Founder</p>
+                    <p class="team_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                </div>
+                <div class="team-4">
+                    <div class="block-for-img"></div>
+                    <p class="team_name">Denny Sashe</p>
+                    <p class="team_position">Creative Director</p>
+                    <p class="team_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                </div>
+            </div>
+        </div>
+        <div class="business-proposition">
+            <div class="basic-proposition">
+                <table>
+                    <tr>
+                        <td class="top-line">Basic</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey">$5.01/ Month</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum </td>
+                    </tr>
+                    <tr>
+                        <td>Dolor sit amet, consect</td>
+                    </tr>
+                    <tr>
+                        <td>Adipiscing elit</td>
+                    </tr>
+                    <tr>
+                        <td>lacus pulvinarvel</td>
+                    </tr>
+                    <tr>
+                        <td>Proin commodo turpis</td>
+                    </tr>
+                    <tr>
+                        <td>Prnare nisi pretium.</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey bottom">
+                            <div class="button"><a href="">Buy now</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pro-proposition">
+                <table>
+                    <tr>
+                        <td class="top-line_active">Pro</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey">$10.01/ Month</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum </td>
+                    </tr>
+                    <tr>
+                        <td>Dolor sit amet, consect</td>
+                    </tr>
+                    <tr>
+                        <td>Adipiscing elit</td>
+                    </tr>
+                    <tr>
+                        <td>lacus pulvinarvel</td>
+                    </tr>
+                    <tr>
+                        <td>Proin commodo turpis</td>
+                    </tr>
+                    <tr>
+                        <td>Prnare nisi pretium.</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey bottom">
+                            <div class="button active"><a href="">Buy now</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="premium-proposition">
+                <table>
+                    <tr>
+                        <td class="top-line">Premium</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey">$20.01/ Month</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum </td>
+                    </tr>
+                    <tr>
+                        <td>Dolor sit amet, consect</td>
+                    </tr>
+                    <tr>
+                        <td>Adipiscing elit</td>
+                    </tr>
+                    <tr>
+                        <td>lacus pulvinarvel</td>
+                    </tr>
+                    <tr>
+                        <td>Proin commodo turpis</td>
+                    </tr>
+                    <tr>
+                        <td>Prnare nisi pretium.</td>
+                    </tr>
+                    <tr>
+                        <td class="light-grey  bottom">
+                            <div class="button"><a href="">Buy now</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="client-say">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="carousel-caption">
+                            <h2>What Clients Say</h2>
+                            <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.</p>
+                            <p class="client-name">John Dove</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h2>What Clients Say</h2>
+                            <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.</p>
+                            <p class="client-name">John Dove</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h2>What Clients Say</h2>
+                            <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.</p>
+                            <p class="client-name">John Dove</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <form action="" method="post">
+        <input class="name" type="text" name="name" placeholder="Name">
+        <input class="email" type="email" name="email" placeholder="Email">
+        
+        <textarea placeholder="Message" rows="5"></textarea>
+        <input type="submit" value="Send">
+        </form>
+
+
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</body>
+
+</html>
